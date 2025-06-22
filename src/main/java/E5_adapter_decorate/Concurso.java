@@ -58,7 +58,7 @@ public class Concurso implements ConcursoComponente{
         }
 
         this.repositorio.guardarInscripcion(fechaActual, participante, this);
-        //this.notificador.notificar(new Notificacion(participante.getEmail()));  //Se puede evitar?
+        //this.notificador.notificar(new Notificacion(participante.getEmail()));  //Se puede evitar? ---> No
 
         return "Se realizó la inscripción.";
     }
